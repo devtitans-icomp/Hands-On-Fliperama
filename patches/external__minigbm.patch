@@ -1,0 +1,17 @@
+diff --git a/gbm_mesa_driver/Android.mk b/gbm_mesa_driver/Android.mk
+index 3e6b5a7..f4fc57a 100644
+--- a/gbm_mesa_driver/Android.mk
++++ b/gbm_mesa_driver/Android.mk
+@@ -16,6 +16,7 @@
+ # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ # DEALINGS IN THE SOFTWARE.
+ 
++ifneq ($(filter true, $(BOARD_MESA3D_BUILD_LIBGBM)),)
+ LOCAL_PATH := $(call my-dir)
+ 
+ include $(CLEAR_VARS)
+@@ -33,3 +34,4 @@ LOCAL_MODULE_TAGS := optional
+ LOCAL_VENDOR_MODULE := true
+ 
+ include $(BUILD_SHARED_LIBRARY)
++endif

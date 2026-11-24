@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Sobrescritas de recursos do framework Android (`frameworks/base/core/res/res/values/config.xml`).
+  Exemplo:
+    <bool name="config_enableAutoPowerModes">false</bool>
+-->
+<resources>
+</resources>

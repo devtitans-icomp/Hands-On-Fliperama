@@ -1,0 +1,15 @@
+// SPDX-License-Identifier: Apache-2.0
+//
+// Módulo leve para debloat de APKs do AOSP sem apagar pastas da árvore base.
+// Para remover um APK padrão da imagem, adicione o nome do módulo em `overrides`.
+// Exemplos comuns do AOSP: "Calendar", "Contacts", "DeskClock", "Gallery2",
+// "Music", "PhotoTable", "QuickSearchBox", "LiveWallpapersPicker", "Browser2".
+
+android_app {
+    name: "FliperamaDebloat",
+    manifest: "AndroidManifest.xml",
+    sdk_version: "current",
+    overrides: [
+        // Adicione aqui os nomes dos módulos APK a remover da imagem
+    ],
+}

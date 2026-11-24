@@ -1,0 +1,19 @@
+# Arquivos temporários e de sistema
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs e saídas locais
+*.log
+*.img
+*.zip
+*.tar.gz
+out/
+build/
+
+# IDEs / Editores
+.vscode/
+.idea/
+*.iml
