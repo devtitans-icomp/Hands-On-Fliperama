@@ -173,6 +173,7 @@ git pull origin main
 | Caminho | Para que serve |
 | --- | --- |
 | `.gitignore` | Evita que arquivos temporários, logs, imagens `.img` e diretórios de editor/build entrem no Git. |
+| `.github/ISSUE_TEMPLATE/task.md` | Template padrão de Issues do projeto (`Objetivo`, `Critérios de Aceitação` e `Observações`). |
 | `README.md` | Documentação principal: arquitetura, requisitos, setup, compilação e guia de contribuição. |
 | `Android.bp` | Declara `soong_namespace {}` para isolar os módulos Soong deste projeto sem conflitar com outros alvos do AOSP. |
 | `AndroidProducts.mk` | Registra o produto `aosp_rpi4_fliperama.mk` no sistema de build para que `aosp_rpi4_fliperama-ap2a-userdebug` apareça no `lunch`. |
